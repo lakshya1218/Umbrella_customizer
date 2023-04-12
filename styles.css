@@ -1,0 +1,140 @@
+*{
+  font-family: sans-serif;
+}
+:root {
+  
+  --bg: lightblue;
+}
+body{
+  background-color: var(--bg);
+}
+
+
+
+.customizer{
+  display: flex;
+  margin: 100px 0;
+  padding: 100px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.umbrella{
+ 
+  margin: 5rem;
+  width: 40rem;
+}
+#umbrella-image{
+  width: 100%;
+
+  
+  
+}
+  
+ .swatches{
+  display: flex;
+ }
+
+ .controls{
+  
+  padding: 2rem;
+  width: 40rem;
+  font-size: 1.5rem;
+  justify-content: flex-start;
+ }
+  .color-swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .color-swatch.pink {
+    background-color: #ff82a9;
+  }
+  
+  .color-swatch.blue {
+    background-color: #82a9ff;
+  }
+  
+  .color-swatch.yellow {
+    background-color: #f3d450;
+  }
+  
+  .color-swatch.active {
+    border: 2px solid #000;
+  }
+  
+
+  .Loader {
+    animation: spin 2s linear infinite;
+    align-items: center;
+    width: 50%;
+   
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .umbrella {
+    position: relative;
+  }
+  
+  #umbrella-image {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #logo-image {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+  }
+  
+
+  .upload-btn{
+    display: flex;
+    background-color:black;
+    color: aliceblue;
+    width: 10rem;
+    padding: 1rem;
+    cursor: pointer;
+
+
+  }
+  
+  input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+    display: none;
+  }
+  
+  input, button{
+    cursor: pointer;
+    text-align: center;
+
+  }
+  
+  button{
+    background-color: #000;
+    border: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    
+  }
+  
+ 
+  
+
+  
+ 
